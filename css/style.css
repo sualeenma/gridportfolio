@@ -142,3 +142,30 @@ section {
       filter: brightness(1);
       border: 1px solid rgba(0,0,0,.3);
   }
+
+
+  
+  /* HERO SECTIONS */
+  .hero {
+      padding: 4em 0;
+      background: #dedede;
+      margin-bottom: 6em;
+  }
+  
+  
+  /* #LAYOUT: FLEX GRID */
+  @media (min-width: 768px) {
+      
+      .row {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 1em;
+      }
+      .one-third.column {
+          width: 32%;
+      }
+      .two-thirds.column {
+          width: 60%;
+      }
+      
+  }
